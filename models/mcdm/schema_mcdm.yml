@@ -1,0 +1,105 @@
+version: 2
+
+models:
+  - name: paid_ads_basic_performance
+    columns:
+      - name: ad_id
+        description: ''
+        tests: []
+        data_type: string
+      - name: add_to_cart
+        description: ''
+        tests: []
+        data_type: int64
+      - name: adset_id
+        description: ''
+        tests: []
+        data_type: string
+      - name: campaign_id
+        description: ''
+        tests: []
+        data_type: string
+      - name: channel
+        description: ''
+        tests: []        
+        data_type: string
+      - name: clicks
+        description: ''
+        tests: []        
+        data_type: int64
+      - name: comments
+        description: ''
+        tests: []        
+        data_type: int64
+      - name: creative_id
+        description: ''
+        tests: []        
+        data_type: string
+      - name: date
+        description: ''
+        tests: []        
+        data_type: date
+      - name: engagements
+        description: ''
+        tags: []
+        data_type: int64
+      - name: impressions
+        description: ''
+        tests: []
+        data_type: int64
+      - name: installs
+        description: ''
+        tests: []
+        data_type: int64
+      - name: likes
+        description: ''
+        tests: []        
+        data_type: int64
+      - name: link_clicks
+        description: ''
+        tests: []      
+        data_type: int64
+      - name: placement_id
+        description: ''
+        tests: []      
+        data_type: string
+      - name: post_click_conversions
+        description: ''
+        tests: []
+        data_type: int64
+      - name: post_view_conversions
+        description: ''
+        tests: []        
+        data_type: int64
+      - name: posts
+        description: ''
+        tests: []        
+        data_type: int64
+      - name: purchase
+        description: ''
+        tests: []        
+        data_type: int64
+      - name: registrations
+        description: ''
+        tests: []        
+        data_type: int64
+      - name: revenue
+        description: ''
+        tests: []        
+        data_type: int64
+      - name: shares
+        description: ''
+        tests: []        
+        data_type: int64
+      - name: spend
+        description: ''
+        tests: []
+        data_type: int64
+      - name: total_conversions
+        description: ''
+        tests: []        
+        data_type: int64
+      - name: video_views
+        description: ''
+        tests: []        
+        data_type: int64
