@@ -1,5 +1,11 @@
 version: 2
 
+sources:
+  - name: stg_bing
+  - name: stg_fb
+  - name: stg_tiktok
+  - name: stg_twt
+
 models:
   - name: paid_ads_basic_performance
     columns:
