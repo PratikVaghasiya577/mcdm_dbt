@@ -1,10 +1,15 @@
 version: 2
 
 sources:
-  - name: stg_bing
-  - name: stg_fb
-  - name: stg_tiktok
-  - name: stg_twt
+  - name: mcdm_dbt
+    database: mcdmdbt
+    tables:
+    - name: src_ads_bing_all_data
+    - name: 'src_ads_creative_facebook_all_data'    
+    - name: 'src_ads_tiktok_ads_all_data'    
+    - name: 'src_promoted_tweets_twitter_all_data'
+    
+
 
 models:
   - name: paid_ads_basic_performance
