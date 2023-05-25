@@ -1,1 +1,1 @@
- 
+select * from {{ ref('stg_bing') }}
