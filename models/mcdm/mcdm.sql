@@ -21,7 +21,7 @@ union all
 select tktk.ad_id, tktk.add_to_cart, tktk.adgroup_id as adset_id, tktk.campaign_id, tktk.channel, tktk.clicks, 0 as comments, 0 as creative_id, tktk.date, 0 as engagements, tktk.impressions as impressions, tktk.rt_installs as installs, 0 as likes, 0 as link_clicks, 0 as placement_id, 0 as post_click_conversion, 0 as post_view_conversion, 0 as posts, 0 as purchase, tktk.registrations, 0 as revenue, 0 as shares, tktk.spend, tktk.conversions as total_conversions, tktk.video_views as video_views
 from tktk
 union all 
-select 0 as ad_id, 0 as add_to_cart, 0 as adset_id, twtr.campaign_id, twtr.channel, 0 as clicks, twtr.comments as comments, 0 as creative_id, twtr.date, twtr.engagements, twtr.impressions as impressions, 0 as installs, twtr.likes, twtr.clicks as link_clicks, 0 as placement_id, 0 as post_click_conversion, 0 as post_view_conversion, 0 as posts, 0 as purchase, 0 as registrations, 0 as revenue, twtr.retweets as shares, twtr.spend, 0 as total_conversions, twtr.video_total_views as video_views
+select 0 as ad_id, 0 as add_to_cart, 0 as adset_id, twtr.campaign_id, twtr.channel, twtr.clicks as clicks, twtr.comments as comments, 0 as creative_id, twtr.date, twtr.engagements, twtr.impressions as impressions, 0 as installs, twtr.likes, twtr.clicks as link_clicks, 0 as placement_id, 0 as post_click_conversion, 0 as post_view_conversion, 0 as posts, 0 as purchase, 0 as registrations, 0 as revenue, twtr.retweets as shares, twtr.spend, 0 as total_conversions, twtr.video_total_views as video_views
 from twtr
 )
 
